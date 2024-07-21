@@ -9,7 +9,7 @@ interface Cooking
 }
 interface Multiply
 {
-    int Multiply(int a,int b);
+    int Multiply(int a, int b);
 }
 public class LambdaEx {
     public static void main(String[] args) {
@@ -18,6 +18,6 @@ public class LambdaEx {
         Multiply M=(a,b)-> a*b;
         System.out.println(S.name("chikki"));
         C.cook();
-        M.Multiply(5,6);
+       System.out.println( M.Multiply(5,6));
     }
 }
